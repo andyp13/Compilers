@@ -121,6 +121,7 @@ class hackAssembler:
             "D&M"   : 0b1000000,
             "D|M"   : 0b1010101,
 
+            # Additional Types XHACK
             "!D&A"  : 0b0010000,
             "D&!A"  : 0b0000100,
             "!D&!A" : 0b0010100,
