@@ -37,6 +37,12 @@ class Label:
         self.name = name
         self.definition = definition
         self.lineNumber = lineNumber
+    
+    def __eq__(self, other):
+        if type(other) is str:
+            return self.name == other
+        else:
+            return self.name == other.name
 
 
 #Main Assembler
@@ -188,7 +194,7 @@ class hackAssembler:
                             totalFile += newLine + "\n"
             except Exception as ex:
                 print(ex.args)
-                number, error, line = ex.args
+                number, error, line = ex.args if (len(ex.args) == 3) else ex.args, None, None
                 print(f'ERROR - On line {number}\n{error}\n{line}', file=sys.stderr)
         return totalFile
             
@@ -291,8 +297,9 @@ class hackAssembler:
                     raise Exception(lineNumber, "Illegal Label: Label cannot be blank", currentLine)
 
                 if(currentLine.startswith('@') and not representsInt(label)):
-                    if(self.labels.get(label) == None and (label not in self.currentMemory)):
-                        self.currentMemory.append(Label(label, 0, lineNumber))
+                    newLabel = Label(label, 0, lineNumber)
+                    if(self.labels.get(label) == None and (newLabel not in self.currentMemory)):
+                        self.currentMemory.append(newLabel)
 
                 elif(currentLine.startswith('(')):
                     label = currentLine.strip("(")
@@ -317,7 +324,7 @@ class hackAssembler:
 
             except Exception as ex:
                 print(ex.args)
-                number, error, line = ex.args
+                number, error, line = ex.args if len(ex.args) == 3 else (ex.args[0], None, None)
                 print(f'ERROR - On line {number}\n{error}\n{line}', file=sys.stderr)
 
         for items in self.currentMemory:

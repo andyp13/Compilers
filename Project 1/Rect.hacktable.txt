@@ -24,13 +24,8 @@ RAM Addresses:
 |R15                           |15        |-1        |
 |SCREEN                        |16384     |-1        |
 |KBD                           |24576     |-1        |
-|INFINITE_LOOP                 |16        |10        |
-|counter                       |17        |12        |
-|address                       |18        |16        |
-|address                       |19        |19        |
-|address                       |20        |22        |
-|address                       |21        |26        |
-|counter                       |22        |28        |
+|counter                       |16        |12        |
+|address                       |17        |16        |
 ROM Addresses:
 |Name	|Value	|Line Num	|
 |LOOP                          |10        |18        |
