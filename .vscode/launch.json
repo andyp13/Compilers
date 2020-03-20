@@ -6,12 +6,37 @@
     "configurations": [
 
         {
+            "name": "Python: All Files",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Project 1/assembler.py",
+            "console": "integratedTerminal",
+            "args": [
+                "${workspaceFolder}/Project 1/xhasm test files/a.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/Add.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/b.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/c.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/d.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/e.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/m.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/Max.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/Pong.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/Rect.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/w1.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/w2.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/w3.asm",
+                "${workspaceFolder}/Project 1/xhasm test files/x.asm"
+            ]
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["./Project 1/Pong.asm"]
+            "args": [
+                "${workspaceFolder}/Project 1/xhasm test files/x.asm"
+            ]
         }
     ]
 }
