@@ -433,19 +433,19 @@ for filePath in sys.argv[1:]:
     tableFile = ''
     tableFile += ('Symbolic Table Time!\nRAM Addresses:\n')
     
-    tableFile += ('|Name\t|Value\t|Line Num\t|\n')
+    tableFile += (f'|{"Name".ljust(40)}|{"Value".ljust(10)}|{"Line Num".ljust(10)}|\n')
     for item in assembler.RAMLabels:
-        tableFile += (f'|{item.name.ljust(30)}|{str(item.definition).ljust(10)}|{str(item.lineNumber).ljust(10)}|\n')
+        tableFile += (f'|{item.name.ljust(40)}|{str(item.definition).ljust(10)}|{str(item.lineNumber).ljust(10)}|\n')
 
     tableFile += ('ROM Addresses:\n')
-    tableFile += ('|Name\t|Value\t|Line Num\t|\n')
+    tableFile += (f'|{"Name".ljust(40)}|{"Value".ljust(10)}|{"Line Num".ljust(10)}|\n')
     for item in assembler.ROMLabels:
-        tableFile += (f'|{item.name.ljust(30)}|{str(item.definition).ljust(10)}|{str(item.lineNumber).ljust(10)}|\n')
+        tableFile += (f'|{item.name.ljust(40)}|{str(item.definition).ljust(10)}|{str(item.lineNumber).ljust(10)}|\n')
     
     tableFile += ('EQU Values:\n')
-    tableFile += ('|Name\t|Value\t|Line Num\t|\n')
+    tableFile += (f'|{"Name".ljust(40)}|{"Value".ljust(10)}|{"Line Num".ljust(10)}|\n')
     for item in assembler.EQULabels:
-        tableFile += (f'|{item.name.ljust(30)}|{str(item.definition).ljust(10)}|{str(item.lineNumber).ljust(10)}|\n')
+        tableFile += (f'|{item.name.ljust(40)}|{str(item.definition).ljust(10)}|{str(item.lineNumber).ljust(10)}|\n')
 
     tableFileName = newFileName + 'table.txt'
     newTableFile = open(tableFileName, 'w')

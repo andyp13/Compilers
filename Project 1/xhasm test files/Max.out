@@ -1,36 +1,36 @@
 Outputed to -> /Users/aaronphillips/Documents/UCCS/Compilers/Compilers/Project 1/xhasm test files/Max.hack
 Symbolic Table Time!
 RAM Addresses:
-|Name	|Value	|Line Num	|
-|SP                            |0         |-1        |
-|LCL                           |1         |-1        |
-|ARG                           |2         |-1        |
-|THIS                          |3         |-1        |
-|THAT                          |4         |-1        |
-|R0                            |0         |-1        |
-|R1                            |1         |-1        |
-|R2                            |2         |-1        |
-|R3                            |3         |-1        |
-|R4                            |4         |-1        |
-|R5                            |5         |-1        |
-|R6                            |6         |-1        |
-|R7                            |7         |-1        |
-|R8                            |8         |-1        |
-|R9                            |9         |-1        |
-|R10                           |10        |-1        |
-|R11                           |11        |-1        |
-|R12                           |12        |-1        |
-|R13                           |13        |-1        |
-|R14                           |14        |-1        |
-|R15                           |15        |-1        |
-|SCREEN                        |16384     |-1        |
-|KBD                           |24576     |-1        |
+|Name                                    |Value     |Line Num  |
+|SP                                      |0         |-1        |
+|LCL                                     |1         |-1        |
+|ARG                                     |2         |-1        |
+|THIS                                    |3         |-1        |
+|THAT                                    |4         |-1        |
+|R0                                      |0         |-1        |
+|R1                                      |1         |-1        |
+|R2                                      |2         |-1        |
+|R3                                      |3         |-1        |
+|R4                                      |4         |-1        |
+|R5                                      |5         |-1        |
+|R6                                      |6         |-1        |
+|R7                                      |7         |-1        |
+|R8                                      |8         |-1        |
+|R9                                      |9         |-1        |
+|R10                                     |10        |-1        |
+|R11                                     |11        |-1        |
+|R12                                     |12        |-1        |
+|R13                                     |13        |-1        |
+|R14                                     |14        |-1        |
+|R15                                     |15        |-1        |
+|SCREEN                                  |16384     |-1        |
+|KBD                                     |24576     |-1        |
 ROM Addresses:
-|Name	|Value	|Line Num	|
-|OUTPUT_FIRST                  |10        |17        |
-|OUTPUT_D                      |12        |20        |
-|INFINITE_LOOP                 |14        |23        |
+|Name                                    |Value     |Line Num  |
+|OUTPUT_FIRST                            |10        |17        |
+|OUTPUT_D                                |12        |20        |
+|INFINITE_LOOP                           |14        |23        |
 EQU Values:
-|Name	|Value	|Line Num	|
+|Name                                    |Value     |Line Num  |
 
 Also Written To -> /Users/aaronphillips/Documents/UCCS/Compilers/Compilers/Project 1/xhasm test files/Max.hacktable.txt
