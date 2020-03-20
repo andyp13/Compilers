@@ -1,0 +1,69 @@
+(5, 'Value is not a number', '@ 0B201')
+ERROR - On line 5
+Value is not a number
+@ 0B201
+(7, 'Value is not a number', '@ 0X3FFH')
+ERROR - On line 7
+Value is not a number
+@ 0X3FFH
+(3, 'A-Type Illegal Value: Number is larger than a 15 bit number', '@ 0xFFFF')
+ERROR - On line (3, 'A-Type Illegal Value: Number is larger than a 15 bit number', '@ 0xFFFF')
+None
+None
+(5, 'Value is not a number', '@ 0B201')
+ERROR - On line (5, 'Value is not a number', '@ 0B201')
+None
+None
+(6, 'Illegal C-Type computation: Not a valid Computation Mnemonic', 'M = D*M')
+ERROR - On line (6, 'Illegal C-Type computation: Not a valid Computation Mnemonic', 'M = D*M')
+None
+None
+(7, 'Value is not a number', '@ 0X3FFH')
+ERROR - On line (7, 'Value is not a number', '@ 0X3FFH')
+None
+None
+(8, 'Illegal C-Type computation: Not a valid Destination Mnemonic', 'R0 = D|M')
+ERROR - On line (8, 'Illegal C-Type computation: Not a valid Destination Mnemonic', 'R0 = D|M')
+None
+None
+(10, 'Illegal C-Type computation: Not a valid Jump Mnemonic', 'M = D+M; JFS')
+ERROR - On line (10, 'Illegal C-Type computation: Not a valid Jump Mnemonic', 'M = D+M; JFS')
+None
+None
+(14, 'Illegal C-Type computation: Not a valid Computation Mnemonic', '/ R[16383] = 24242')
+ERROR - On line (14, 'Illegal C-Type computation: Not a valid Computation Mnemonic', '/ R[16383] = 24242')
+None
+None
+Outputed to -> /Users/aaronphillips/Documents/UCCS/Compilers/Compilers/Project 1/xhasm test files/w3.hack
+Symbolic Table Time!
+RAM Addresses:
+|Name	|Value	|Line Num	|
+|SP                            |0         |-1        |
+|LCL                           |1         |-1        |
+|ARG                           |2         |-1        |
+|THIS                          |3         |-1        |
+|THAT                          |4         |-1        |
+|R0                            |0         |-1        |
+|R1                            |1         |-1        |
+|R2                            |2         |-1        |
+|R3                            |3         |-1        |
+|R4                            |4         |-1        |
+|R5                            |5         |-1        |
+|R6                            |6         |-1        |
+|R7                            |7         |-1        |
+|R8                            |8         |-1        |
+|R9                            |9         |-1        |
+|R10                           |10        |-1        |
+|R11                           |11        |-1        |
+|R12                           |12        |-1        |
+|R13                           |13        |-1        |
+|R14                           |14        |-1        |
+|R15                           |15        |-1        |
+|SCREEN                        |16384     |-1        |
+|KBD                           |24576     |-1        |
+ROM Addresses:
+|Name	|Value	|Line Num	|
+EQU Values:
+|Name	|Value	|Line Num	|
+
+Also Written To -> /Users/aaronphillips/Documents/UCCS/Compilers/Compilers/Project 1/xhasm test files/w3.hacktable.txt

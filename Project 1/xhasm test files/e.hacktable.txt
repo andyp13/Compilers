@@ -1,0 +1,44 @@
+Symbolic Table Time!
+RAM Addresses:
+|Name	|Value	|Line Num	|
+|SP                            |0         |-1        |
+|LCL                           |1         |-1        |
+|ARG                           |2         |-1        |
+|THIS                          |3         |-1        |
+|THAT                          |4         |-1        |
+|R0                            |0         |-1        |
+|R1                            |1         |-1        |
+|R2                            |2         |-1        |
+|R3                            |3         |-1        |
+|R4                            |4         |-1        |
+|R5                            |5         |-1        |
+|R6                            |6         |-1        |
+|R7                            |7         |-1        |
+|R8                            |8         |-1        |
+|R9                            |9         |-1        |
+|R10                           |10        |-1        |
+|R11                           |11        |-1        |
+|R12                           |12        |-1        |
+|R13                           |13        |-1        |
+|R14                           |14        |-1        |
+|R15                           |15        |-1        |
+|SCREEN                        |16384     |-1        |
+|KBD                           |24576     |-1        |
+|OP1                           |16        |12        |
+|OP2.1                         |17        |14        |
+|OP2.2                         |18        |16        |
+|OP2.3                         |19        |18        |
+|OP2.4                         |20        |20        |
+|FLAG_value                    |21        |24        |
+|FLAG_register                 |22        |26        |
+ROM Addresses:
+|Name	|Value	|Line Num	|
+EQU Values:
+|Name	|Value	|Line Num	|
+|OP1                           |100       |3         |
+|OP2.1                         |200       |4         |
+|OP2.2                         |201       |5         |
+|OP2.3                         |202       |6         |
+|OP2.4                         |203       |7         |
+|FLAG$reg                      |16383     |8         |
+|FLAG$value                    |24242     |9         |

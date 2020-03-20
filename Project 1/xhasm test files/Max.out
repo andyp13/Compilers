@@ -1,3 +1,4 @@
+Outputed to -> /Users/aaronphillips/Documents/UCCS/Compilers/Compilers/Project 1/xhasm test files/Max.hack
 Symbolic Table Time!
 RAM Addresses:
 |Name	|Value	|Line Num	|
@@ -26,6 +27,10 @@ RAM Addresses:
 |KBD                           |24576     |-1        |
 ROM Addresses:
 |Name	|Value	|Line Num	|
+|OUTPUT_FIRST                  |10        |17        |
+|OUTPUT_D                      |12        |20        |
+|INFINITE_LOOP                 |14        |23        |
 EQU Values:
 |Name	|Value	|Line Num	|
-|TWO                           |@2        |6         |
+
+Also Written To -> /Users/aaronphillips/Documents/UCCS/Compilers/Compilers/Project 1/xhasm test files/Max.hacktable.txt
